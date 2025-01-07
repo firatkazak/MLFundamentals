@@ -1,0 +1,15 @@
+LinePlots.py
+BarCharts.py
+ScatterPlot.py
+PieCharts.py
+Histograms.py
+ViolinPlot.py
+DensityHeatmap.py
+3DScatterPlots.py
+3DLinePlots.py
+ScatterMatrix.py
+ChoroplethMaps.py
+PolarChart.py
+TernaryPlot.py
+Facets.py
+AnimatedPlots.py

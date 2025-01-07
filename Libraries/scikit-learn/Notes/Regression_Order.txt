@@ -1,0 +1,18 @@
+SimpleLinearRegression
+MultipleLinearRegression
+RidgeRegression
+LassoRegression
+ElasticNetRegression
+PolynomialRegression
+StepwiseRegression
+QuantileRegression
+BayesianRegression YORDU TEKRAR BAK
+RobustRegression
+PoissonRegression
+NegativeBinomialRegression
+OrdinalRegression
+GammaRegression
+TobitRegression
+ProbitRegression
+PartialLeastSquaresRegression
+MARS

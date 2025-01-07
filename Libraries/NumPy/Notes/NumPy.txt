@@ -1,0 +1,89 @@
+NumPy:
+NumPy, bilimsel hesaplamalar ve veri analizi için çok önemli bir Python kütüphanesidir.
+Python'un temel veri yapılarını genişleterek hızlı ve etkili bir şekilde matematiksel işlemler yapmanıza olanak tanır.
+NumPy, özellikle büyük, çok boyutlu diziler ve matrislerle çalışmak için geliştirilmiştir. Bu diziler üzerinde çeşitli matematiksel işlemleri hızlıca gerçekleştirebilir.
+
+NumPy'nin Temel Özellikleri
+
+1. Ndarray:
+Ndarray (N-dimensional array), NumPy'nin ana veri yapısıdır. Bu diziler, sabit boyutlu ve homojen veri türlerine sahiptir.
+Yani, bir ndarray'deki tüm elemanlar aynı veri tipine sahip olmalıdır. NumPy dizileri, Python listelerinden çok daha verimlidir;
+Çünkü sabit bir bellekte depolanırlar ve genellikle C dilinde yazılmış optimize edilmiş kütüphaneler kullanılarak işlenirler.
+
+2. Verimlilik:
+NumPy, C dilinde yazıldığı için Python'un dahili veri yapılarına kıyasla çok daha hızlıdır.
+Özellikle büyük veri setleriyle çalışırken önemli performans iyileştirmeleri sağlar.
+
+3. Yayılma (Broadcasting):
+NumPy, farklı boyutlardaki dizilerle matematiksel işlemler yaparken otomatik olarak boyutları eşleştirme ve genişletme yeteneğine sahiptir.
+Bu, çeşitli matematiksel işlemlerin daha kolay ve hızlı bir şekilde yapılmasını sağlar.
+
+4. Matematiksel Fonksiyonlar:
+NumPy, çok çeşitli matematiksel işlemleri gerçekleştiren fonksiyonlar içerir.
+Örneğin, lineer cebir işlemleri, istatistiksel hesaplamalar, Fourier dönüşümleri gibi çeşitli işlemler için optimize edilmiş fonksiyonlar sağlar.
+
+5. Rassal Sayı Üretimi:
+NumPy, rastgele sayılar üretmek için çeşitli fonksiyonlar sağlar. Bu özellik, simülasyonlar ve test verileri oluşturmak için kullanışlıdır.
+
+6. Veri Manipülasyonu:
+NumPy, dizilerin boyutlarını değiştirme, dizileri birleştirme ve bölme gibi çeşitli veri manipülasyon işlemlerini kolayca yapmanıza olanak tanır.
+
+NumPy Dizi Türleri: NumPy dizileri, çeşitli veri türlerini destekler. Bunlar, özellikle büyük verilerle çalışırken önemli olabilir. İşte bazı örnek veri türleri:
+
+| Veri Türü | Açıklama                 |
+|-----------|--------------------------|
+| int8      | 8-bit tam sayı           |
+| int16     | 16-bit tam sayı          |
+| int32     | 32-bit tam sayı          |
+| int64     | 64-bit tam sayı          |
+| float16   | 16-bit kayan nokta       |
+| float32   | 32-bit kayan nokta       |
+| float64   | 64-bit kayan nokta       |
+| bool      | Boolean (True/False)     |
+| complex64 | 64-bit kompleks sayı     |
+
+Dizi oluştururken veri türünü belirlemek için `dtype` parametresi kullanılabilir.
+
+NumPy'nin Yaygın Kullanım Alanları:
+NumPy, çeşitli alanlarda ve uygulamalarda yaygın olarak kullanılır. İşte bazı yaygın kullanım alanları:
+
+1. Veri Bilimi ve Analiz:
+NumPy, büyük veri setleriyle çalışırken veri manipülasyonu ve analiz için yaygın olarak kullanılır.
+Pandas ve Matplotlib gibi diğer kütüphanelerle birlikte kullanıldığında, veri bilimi projeleri için güçlü bir araç seti sağlar.
+
+2. Makine Öğrenmesi:
+NumPy, makine öğrenmesi algoritmaları için temel bir yapı taşıdır.
+Scikit-learn, TensorFlow ve PyTorch gibi makine öğrenmesi kütüphaneleri, NumPy dizilerini verilerinizi işlemek için kullanır.
+
+3. Bilimsel Hesaplamalar:
+NumPy, bilimsel ve mühendislik hesaplamaları için optimize edilmiş matematiksel fonksiyonlar ve lineer cebir işlemleri sağlar.
+
+4. Simülasyonlar ve Modelleme:
+Rastgele sayı üretimi ve matris işlemleri için kullanılan NumPy, simülasyonlar ve matematiksel modelleme projelerinde sıkça tercih edilir.
+
+5. Görüntü İşleme:
+NumPy, görüntü işleme projelerinde yaygın olarak kullanılır.
+OpenCV ve Pillow gibi kütüphanelerle birlikte kullanıldığında, görüntülerin işlenmesi ve analiz edilmesi kolaylaşır.
+
+NumPy'nin Avantajları ve Dezavantajları;
+
+Avantajları
+
+1. Yüksek Performans: NumPy, C dilinde yazılmış düşük seviyeli bir kütüphane olduğundan, büyük veri setleri üzerinde hızlı ve verimli işlemler gerçekleştirebilir.
+2. Çeşitli Fonksiyonlar: NumPy, matematiksel işlemler, lineer cebir, rastgele sayı üretimi ve daha fazlası için geniş bir fonksiyon yelpazesi sunar.
+3. Kolay Kullanım: NumPy, Python ile uyumlu ve kolay bir API sağlar, bu da veri manipülasyonu ve analiz işlemlerini basit hale getirir.
+4. Yaygın Kullanım: NumPy, bilimsel hesaplamalar, veri bilimi ve makine öğrenmesi gibi birçok alanda yaygın olarak kullanılır.
+
+Dezavantajları
+
+1. Yalnızca Homojen Veri: NumPy dizileri yalnızca aynı türde veri saklayabilir. Farklı veri türlerini saklamak için daha esnek veri yapıları gerekebilir.
+2. Dizilerde Boyut Sabitliği: NumPy dizileri oluşturulduktan sonra boyutları değiştirilemez. Dinamik boyut değişiklikleri gerektiren işlemler için alternatif veri yapıları kullanılmalıdır.
+3. Python'a Özgü: NumPy, yalnızca Python programlama dili ile çalışır ve diğer programlama dilleri için kullanılabilir değildir.
+
+Sonuç:
+NumPy, Python ekosisteminin en önemli kütüphanelerinden biridir ve veri biliminden mühendislik hesaplamalarına kadar geniş bir uygulama yelpazesi sunar.
+Performansı, esnekliği ve geniş fonksiyon yelpazesi ile NumPy, bilimsel hesaplamalar ve veri analizi projelerinde önemli bir araçtır.
+NumPy'nin sağladığı güçlü veri yapıları ve işlevler, Python'u bilimsel ve mühendislik alanlarında yaygın bir tercih haline getirmiştir.
+NumPy, veri analizi, makine öğrenmesi, istatistik ve daha birçok alanda hızlı ve etkili çözümler sunar.
+NumPy'nin derinliklerine indikçe, onun sunduğu çeşitli araçları ve işlevleri keşfederek projelerinizde daha etkili ve verimli sonuçlar elde edebilirsiniz.
+NumPy, veri bilimi ve mühendislik hesaplamalarıyla ilgilenen herkes için temel bir yapı taşıdır ve Python ile daha ileri seviyede programlama yaparken önemli bir rol oynar.

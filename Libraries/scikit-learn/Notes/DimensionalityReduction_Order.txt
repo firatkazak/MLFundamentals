@@ -1,0 +1,16 @@
+PrincipalComponentAnalysis
+PrincipalCoordinatesAnalysis
+t-SNE
+UMAP
+LDA
+Autoencoders
+ICA
+MDS
+Isomap
+LLE
+RandomProjection
+NMF
+FeatureAgglomeration
+SVD
+FA
+CCA

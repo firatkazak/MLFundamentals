@@ -1,0 +1,24 @@
+pip install -U pip
+
+pip install numpy
+pip install pandas
+pip install matplotlib
+pip install seaborn
+pip install plotly
+pip install scipy
+
+pip install -U pip setuptools wheel
+pip install -U 'spacy[cuda11x]'
+python -m spacy download en_core_web_sm
+python -m spacy download en_core_web_md
+
+python -m venv sklearn-env
+sklearn-env\Scripts\activate  # activate
+pip install -U scikit-learn
+
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+pip install pyarrow
+pip install openpyxl
+pip install findiff
+pip install PyDictionary
